@@ -22,7 +22,7 @@ const { title } = Astro.props;
       rel="stylesheet"
     />
     <meta name="generator" content={Astro.generator} />
-    <meta property="og:title" content="{title}" />
+    <meta property="og:title" content={title} />
     <meta
       property="og:description"
       content="Parcourez mes liens et mes réseaux sociaux, écoutez mes derniers sons et bien plus encore."
@@ -30,7 +30,7 @@ const { title } = Astro.props;
     <meta property="og:image" content="/og-cover.png" />
     <meta property="og:url" content="{canonicalURL}" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:title" content={title} />
     <meta
       name="twitter:description"
       content="Parcourez mes liens et mes réseaux sociaux, écoutez mes derniers sons et bien plus encore."
