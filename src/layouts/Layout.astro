@@ -1,45 +1,67 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
-
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Parcourez mes liens et mes réseaux sociaux, écoutez mes derniers sons et bien plus encore."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content="{title}" />
+    <meta
+      property="og:description"
+      content="Parcourez mes liens et mes réseaux sociaux, écoutez mes derniers sons et bien plus encore."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="{canonicalURL}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{title}" />
+    <meta
+      name="twitter:description"
+      content="Parcourez mes liens et mes réseaux sociaux, écoutez mes derniers sons et bien plus encore."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 <style is:global>
-	:root {
-        --zinc-50: #FAFAFA;
-        --zinc-400: #A1A1AA;
-        --zinc-800: #27272A;
-        --zinc-900: #18181B;
-        --zinc-950: #09090B;
-	}
+  :root {
+    --zinc-50: #fafafa;
+    --zinc-400: #a1a1aa;
+    --zinc-800: #27272a;
+    --zinc-900: #18181b;
+    --zinc-950: #09090b;
+  }
 
-    *, *::before, *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-	html {
-		font-family: 'Satoshi', system-ui, sans-serif;
-		background: var(--zinc-950);
-        color: var(--zinc-50)
-	}
+  html {
+    font-family: "Satoshi", system-ui, sans-serif;
+    background: var(--zinc-950);
+    color: var(--zinc-50);
+  }
 </style>
