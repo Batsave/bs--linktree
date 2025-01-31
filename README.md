@@ -1,6 +1,6 @@
 # BS Linktree
 
-L'objectif de Batsave Linktree est d'offrir une alternative gratuite aux services comme Linktree, permettant de centraliser tous les liens vers mes différents réseaux sociaux et plateformes en ligne. Ce projet est pensé pour être léger, rapide et personnalisable.
+L'objectif de ce projet est d'offrir une alternative gratuite aux services comme Linktree, permettant de centraliser tous les liens vers mes différents réseaux sociaux et plateformes en ligne. Ce projet est pensé pour être léger, rapide et personnalisable.
 
 
 📸 Comment cloner le projet ?
@@ -9,35 +9,11 @@ Ce projet est basé sur le template original Astrolink de @alamguardin. Je vous 
 
 ```
 git clone https://github.com/alamguardin/Astrolink.git
-
 ```
 
 🚀 Comment modifier le contenu ?
 
 Pour personnaliser le template, il suffit de modifier le fichier user.json situé dans le dossier data. Vous pouvez y configurer votre nom, votre profession et vos liens personnalisés.
-
-text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── assets/
-│   │   └── screenshot-app.png
-│   │   └── user-profile-image.png
-│   ├── components/
-│   │   └── icons/
-│   │   └── Link.astro
-│   │   └── List.astro
-│   │   └── Profile.astro
-│   │   └── Shadow.astro
-│   ├── data/
-│   │   └── user.json
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-
 
 De plus, vous avez accès à toute l’iconographie de Remixicons. Il suffit d’indiquer le nom de l’icône dans la clé "icon" de chaque lien dans le fichier user.json.
 
