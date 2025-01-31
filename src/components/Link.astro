@@ -29,11 +29,16 @@ const { icon, title, description, url } = Astro.props;
     border: 1px solid var(--zinc-800);
     border-radius: 1rem;
     text-decoration: none;
+    transition: all 0.15s ease-in-out;
 
     @media screen and (max-width: 300px) {
       display: flex;
       flex-direction: column;
     }
+  }
+
+  .link:hover {
+    background-color: #5113a3;
   }
 
   .link-icon {
