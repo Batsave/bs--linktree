@@ -1,0 +1,60 @@
+{
+  "name": "Batsave",
+  "profession": "Streamer / Créateur",
+  "links": [
+    {
+      "url": "https://www.twitch.tv/batsave",
+      "icon": "twitch-fill",
+      "title": "Twitch",
+      "description": "Retrouve-moi en live 3 fois par semaine."
+    },
+    {
+      "url": "https://discord.gg/2PgwJ8uqtT",
+      "icon": "discord-fill",
+      "title": "Discord",
+      "description": "Rejoins mon serveur Discord."
+    },
+    {
+      "url": "https://www.instagram.com/batsave__/",
+      "icon": "instagram-fill",
+      "title": "Instagram",
+      "description": "Pour me suivre hors live."
+    },
+    {
+      "url": "https://www.youtube.com/c/BATSAVE",
+      "icon": "youtube-fill",
+      "title": "Youtube",
+      "description": "Ne rate pas mes dernières vidéos."
+    },
+    {
+      "url": "https://www.tiktok.com/@batsave_",
+      "icon": "tiktok-fill",
+      "title": "TikTok",
+      "description": "Je sors de temps en temps des vidéos ici."
+    },
+    {
+      "url": "https://www.twitter.com/batsave",
+      "icon": "twitter-fill",
+      "title": "Twitter/X",
+      "description": "Quand j'ai un coups de gueule à passer."
+    },
+    {
+      "url": "https://open.spotify.com/intl-fr/artist/1MgnR8EtvMFIF3eZ5Xwasu?si=jiVDuQu3TtSCmSvxSD1n1w",
+      "icon": "spotify-fill",
+      "title": "Spotify",
+      "description": "Retrouve mes dernières sorties et mes playlists."
+    },
+    {
+      "url": "https://deezer.page.link/n2dokevaGb9JjSry8",
+      "icon": "link",
+      "title": "Deezer",
+      "description": "Retrouve mes dernières sorties."
+    },
+    {
+      "url": "https://music.youtube.com/channel/UCA-guQzo-QZQCVTJPx1jx5w",
+      "icon": "youtube-fill",
+      "title": "Youtube Music",
+      "description": "Retrouve mes dernières sorties."
+    }
+  ]
+}
