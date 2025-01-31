@@ -3,10 +3,12 @@ import Layout from "../layouts/Layout.astro";
 import Profile from "../components/Profile.astro";
 import List from "../components/List.astro";
 import Shadow from "../components/Shadow.astro";
+import Analytics from "@vercel/analytics/astro";
 ---
 
 <Layout title="Batsave - Links">
   <main class="container" id="container" style="overflow: hidden;">
+    <Analytics />
     <Profile />
     <List />
     <Shadow />
