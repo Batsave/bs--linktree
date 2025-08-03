@@ -33,6 +33,12 @@
       "description": "Je sors de temps en temps des vidéos ici."
     },
     {
+      "url": "https://www.dailymotion.com/user/batsave",
+      "icon": "daylimotion-fill",
+      "title": "Daylimotion",
+      "description": "Découvre mes reels/shorts ici aussi !"
+    },
+    {
       "url": "https://bs-studio.fr",
       "icon": "link",
       "title": "Portfolio",
